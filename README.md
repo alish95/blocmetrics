@@ -22,6 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+``` JavaScript
 var blocmetrics = {};
   blocmetrics.report = function(eventName){
     var event = {event: { name: eventName }};
@@ -31,3 +33,4 @@ var blocmetrics = {};
     request.setRequestHeader('Content-Type', 'application/json');
     request.send(JSON.stringify(event));
   };
+  ```
