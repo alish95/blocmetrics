@@ -48,6 +48,8 @@ group :development do
   gem 'devise'
   gem 'bootstrap-sass'
   gem 'faker'
+  gem 'chartkick'
+  gem 'groupdate'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
